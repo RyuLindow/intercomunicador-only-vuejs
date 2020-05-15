@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+* {
+    /*general styling for the whole site*/
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+html {
+    font-size: 62.5%; /*10px is the default value*/
+}
+
+body {
+    background-color: #E3DFDD;
+    font-size: 1.25rem;
+
+}
+.page__container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+/*colors*/
+.blue {
+    background-color: #0000ff;
+}
+
+.light-blue {
+    background-color: #0f54ed;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.beige {
+    background-color: #f6eee7;
+}
+
+.green {
+    background-color: #39d18c !important;
+}
+
+.red {
+    background-color: #fa4657 !important;
+}
+
+.dark-blue {
+    background-color: #152235;
+}
+
+/* vue-datetime styling */
+.vdatetime {
+    display: flex;
+}
+.vdatetime-input {
+    background-color: inherit;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1,5rem;
+    width: 100%;
+  }
+
+  .filter__input .vdatetime-popup__header,
+.filter__input .vdatetime-calendar__month__day--selected > span > span,
+.filter__input .vdatetime-calendar__month__day--selected:hover > span > span {
+  background: #101f3b;
+}
+
+.filter__input .vdatetime-year-picker__item--selected,
+.filter__input .vdatetime-month-picker__item--selected,
+.filter__input .vdatetime-time-picker__item--selected,
+.filter__input .vdatetime-popup__actions__button {
+  color: #1b254f;
+}
+
+/*date time picker inactive items*/
+.vdatetime-year-picker__item,
+.vdatetime-month-picker__item {
+  color: #101F3B;
+}
+
+/*day picker month color*/
+.vdatetime-calendar__current--month {
+  color: #101F3B;
+}
+
+/*day name color*/
+.vdatetime-calendar__month__weekday {
+  color: #101F3B;
+}
+
+/*day color*/
+.vdatetime-calendar__month__day > span > span,
+.vdatetime-time-picker__item {
+  color: #101F3B;
+}
